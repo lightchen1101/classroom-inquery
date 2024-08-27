@@ -1,0 +1,102 @@
+
+@import "env_setting";
+@import "common_setting";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", serif;
+}
+
+body {
+  margin:0 auto;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 14px;
+  background: white;
+  text-align: center;
+  overflow:hidden;
+}
+main {
+  width:100%;
+  height:100vh;
+  position: relative;
+  .bg-sky{
+    width: 100%;
+    height:973px;
+    background:url("../images/background_001.png") repeat-x center center;
+    position: absolute;
+    top:0;
+  }
+  .bg-cloud{
+    width: 100%;
+    height:973px;
+    background:url("../images/background_002.png") repeat-x center center;
+    position: absolute;
+    top:0;
+    z-index: 1;
+  }
+  .bg-mountain{
+    width: 100%;
+    height:973px;
+    background:url("../images/background_004.png") repeat-x center center;
+    position: absolute;
+    top:52px;
+    z-index: 2;
+  }
+  .bg-wall{
+    width: 100%;
+    height:30%;
+    background:url("../images/bg-wall.png") repeat center center;
+    position: absolute;
+    top:1075px;
+    z-index: 3;
+  }
+  .bg-ground{
+    width: 100%;
+    height:96px;
+    background:url("../images/bg-ground.png") repeat-x center center;
+    position: absolute;
+    top:1019px;
+    z-index: 4;
+  }
+  .demo{
+    width:100%;
+    height:973px;
+    position:relative;
+    top:0;
+    z-index: 5;
+    .ch_act{
+      position: absolute;
+      top:900px;
+      left:50%;
+      margin-inline-start:128px;
+    }
+    .ch_01_01{
+      position: absolute;
+      top:897px;
+      left:50%;
+      margin-inline-start:320px;
+      img{
+        width:164px;
+        height:164px;
+        transform: scaleX(-1);
+      }
+    }
+    .p1_act{
+      position: absolute;
+      top:791px;
+      left:50%;
+      margin-inline-start:-240px;
+    }
+  }
+}
+
+header{
+  
+}
+
+footer{
+ 
+}
