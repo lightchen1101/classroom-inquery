@@ -91,4 +91,12 @@ main .demo .p1_act {
   top: 791px;
   left: 50%;
   margin-inline-start: -240px;
+  z-index: 6;
+}
+main .demo .dead_01 {
+  position: absolute;
+  top: 896px;
+  left: 50%;
+  margin-inline-start: 40px;
+  z-index: 5;
 }/*# sourceMappingURL=main.css.map */

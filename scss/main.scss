@@ -89,6 +89,14 @@ main {
       top:791px;
       left:50%;
       margin-inline-start:-240px;
+      z-index: 6;
+    }
+    .dead_01{
+      position: absolute;
+      top:896px;
+      left:50%;
+      margin-inline-start:40px;
+      z-index:5;
     }
   }
 }
