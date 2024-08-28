@@ -50,7 +50,7 @@ main {
     height:30%;
     background:url("../images/bg-wall.png") repeat center center;
     position: absolute;
-    top:1075px;
+    top:995px;
     z-index: 3;
   }
   .bg-ground{
@@ -58,8 +58,8 @@ main {
     height:96px;
     background:url("../images/bg-ground.png") repeat-x center center;
     position: absolute;
-    top:1019px;
-    z-index: 4;
+    top:926px;
+    z-index: 6;
   }
   .demo{
     width:100%;
@@ -69,13 +69,13 @@ main {
     z-index: 5;
     .ch_act{
       position: absolute;
-      top:900px;
+      top:808px;
       left:50%;
       margin-inline-start:128px;
     }
     .ch_01_01{
       position: absolute;
-      top:897px;
+      top:805px;
       left:50%;
       margin-inline-start:320px;
       img{
@@ -84,16 +84,38 @@ main {
         transform: scaleX(-1);
       }
     }
+    .ch_01_02{
+      position: absolute;
+      top:805px;
+      left:50%;
+      margin-inline-start:414px;
+      img{
+        width:164px;
+        height:164px;
+        transform: scaleX(-1);
+      }
+    }
+    .ch_01_03{
+      position: absolute;
+      top:805px;
+      left:50%;
+      margin-inline-start:505px;
+      img{
+        width:164px;
+        height:164px;
+        transform: scaleX(-1);
+      }
+    }
     .p1_act{
       position: absolute;
-      top:791px;
+      top:702px;
       left:50%;
       margin-inline-start:-240px;
       z-index: 6;
     }
     .dead_01{
       position: absolute;
-      top:896px;
+      top:802px;
       left:50%;
       margin-inline-start:40px;
       z-index:5;

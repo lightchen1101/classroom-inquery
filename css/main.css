@@ -51,7 +51,7 @@ main .bg-wall {
   height: 30%;
   background: url("../images/bg-wall.png") repeat center center;
   position: absolute;
-  top: 1075px;
+  top: 995px;
   z-index: 3;
 }
 main .bg-ground {
@@ -59,8 +59,8 @@ main .bg-ground {
   height: 96px;
   background: url("../images/bg-ground.png") repeat-x center center;
   position: absolute;
-  top: 1019px;
-  z-index: 4;
+  top: 926px;
+  z-index: 6;
 }
 main .demo {
   width: 100%;
@@ -71,13 +71,13 @@ main .demo {
 }
 main .demo .ch_act {
   position: absolute;
-  top: 900px;
+  top: 808px;
   left: 50%;
   margin-inline-start: 128px;
 }
 main .demo .ch_01_01 {
   position: absolute;
-  top: 897px;
+  top: 805px;
   left: 50%;
   margin-inline-start: 320px;
 }
@@ -86,16 +86,38 @@ main .demo .ch_01_01 img {
   height: 164px;
   transform: scaleX(-1);
 }
+main .demo .ch_01_02 {
+  position: absolute;
+  top: 805px;
+  left: 50%;
+  margin-inline-start: 414px;
+}
+main .demo .ch_01_02 img {
+  width: 164px;
+  height: 164px;
+  transform: scaleX(-1);
+}
+main .demo .ch_01_03 {
+  position: absolute;
+  top: 805px;
+  left: 50%;
+  margin-inline-start: 505px;
+}
+main .demo .ch_01_03 img {
+  width: 164px;
+  height: 164px;
+  transform: scaleX(-1);
+}
 main .demo .p1_act {
   position: absolute;
-  top: 791px;
+  top: 702px;
   left: 50%;
   margin-inline-start: -240px;
   z-index: 6;
 }
 main .demo .dead_01 {
   position: absolute;
-  top: 896px;
+  top: 802px;
   left: 50%;
   margin-inline-start: 40px;
   z-index: 5;
